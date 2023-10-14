@@ -47,3 +47,14 @@ Safety-shutdown 기능을 포함한 라즈베리파이의 전원 모듈
 ## 샘플 이미지
 
 ![샘플](images/rasp_power_module.jpg)
+
+## 라즈베리파이 세팅
+
+설정 파일 : boot/config.txt
+
+Relay 신호선은 GPIO 3, Shutdown 키는 GPIO 26을 썼을 경우
+
+```
+dtoverlay=gpio-poweroff,gpiopin=3,active_low="y"
+dtoverlay=gpio-shutdown,gpio_pin=26,active_low=0,gpio_pull=down
+```
