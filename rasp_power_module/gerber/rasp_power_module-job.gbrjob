@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.7"
+      "Version": "7.0.9"
     },
-    "CreationDate": "2023-10-14T15:04:30+09:00"
+    "CreationDate": "2024-02-24T17:52:34+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "rasp_power_module",
       "GUID": "72617370-5f70-46f7-9765-725f6d6f6475",
-      "Revision": "4"
+      "Revision": "5"
     },
     "Size": {
       "X": 45.82,
