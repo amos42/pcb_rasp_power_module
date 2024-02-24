@@ -2,6 +2,7 @@
 *-cache*
 *.bak
 *-bak
+*.tmp
 _autosave-*
 *-backups
 */gerber/*.zip
